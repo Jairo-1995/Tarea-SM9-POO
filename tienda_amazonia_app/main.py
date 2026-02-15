@@ -3,7 +3,7 @@ from servicios.inventario import Inventario
 
 def main():
     inventario = Inventario()
-    
+    # menu interactivo para gestionar el inventario de productos amazónicos
     while True:
         print("\n--- Sistema de Gestión de Inventarios (Productos Amazónicos) ---")
         print("1. Añadir producto")

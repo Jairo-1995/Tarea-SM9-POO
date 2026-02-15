@@ -55,8 +55,7 @@ class Inventario:
         if not self._productos:
             print("---El inventario está vacío.---")
         else:
-            print("---Inventario completo de productos Amazónicos" \
-            ":---")
+            print("---Inventario completo de productos Amazónicos---")
             for producto in self._productos:
                 print(producto)
 
