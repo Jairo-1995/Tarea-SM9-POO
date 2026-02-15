@@ -44,7 +44,7 @@ class Inventario:
             if nombre_parcial.lower() in producto.get_nombre().lower():
                 resultados.append(producto)
         if resultados:
-            print("Productos encontrados:")
+            print("Producto encontrado:")
             for prod in resultados:
                 print(prod)
         else:
@@ -53,9 +53,10 @@ class Inventario:
 
     def mostrar_inventario(self):
         if not self._productos:
-            print("El inventario está vacío.")
+            print("---El inventario está vacío.---")
         else:
-            print("\nInventario completo:")
+            print("---Inventario completo de productos Amazónicos" \
+            ":---")
             for producto in self._productos:
                 print(producto)
 

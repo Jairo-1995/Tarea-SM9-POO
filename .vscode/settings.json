@@ -1,5 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./tienda_amzonia_app/modelos"
-    ]
-}

@@ -13,12 +13,12 @@ def main():
         print("5. Mostrar inventario completo")
         print("6. Salir")
         
-        opcion = input("Selecciona una opción (1-6): ").strip()
+        opcion = input("Selecciona una opción : ").strip()
         
         if opcion == "1":
             # Añadir producto
             id = input("ID único: ").strip()
-            nombre = input("Nombre (ej. Aguaje, Cacao): ").strip()
+            nombre = input("Nombre del producto (ej. Aguaje, Cacao): ").strip()
             try:
                 cantidad = int(input("Cantidad: "))
                 precio = float(input("Precio: "))
@@ -43,7 +43,7 @@ def main():
         
         elif opcion == "4":
             # Buscar producto
-            nombre_parcial = input("Nombre parcial a buscar: ").strip()
+            nombre_parcial = input("Nombre del producto a buscar: ").strip()
             inventario.buscar_productos(nombre_parcial)
         
         elif opcion == "5":
